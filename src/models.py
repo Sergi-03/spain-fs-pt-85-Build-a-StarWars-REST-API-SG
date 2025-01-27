@@ -10,9 +10,9 @@ class User(db.Model):
     # Here we define columns for the table person
     # Notice that each column is also a normal Python instance attribute.
     id = Column(Integer, primary_key=True)
-    name = Column(String(250), nullable=False, unique=True)
-    email = Column(String(50), nullable=False, unique=True)
-    password = Column(String(50), nullable=False, unique=False)
+    name = Column(String(250), nullable=False)
+    email = Column(String(50), nullable=False)
+    password = Column(String(50), nullable=False)
     favorites = relationship("Favorite", back_populates="user")
 
 
@@ -29,7 +29,7 @@ class Character(db.Model):
     # Here we define columns for the table address.
     # Notice that each column is also a normal Python instance attribute.
     id = Column(Integer, primary_key=True)
-    name = Column(String(100), nullable=False, unique=True)
+    name = Column(String(100), nullable=False)
     description = Column(String(500), nullable=False)
     favorites = relationship("Favorite", back_populates="character")
 
@@ -46,7 +46,7 @@ class Planet(db.Model):
     # Here we define columns for the table address.
     # Notice that each column is also a normal Python instance attribute.
     id = Column(Integer, primary_key=True)
-    planet_name = Column(String(150), unique=True, nullable=False)
+    planet_name = Column(String(150),  nullable=False)
     description = Column(String(500), nullable=False)
     favorites = relationship("Favorite", back_populates="planet")
 
