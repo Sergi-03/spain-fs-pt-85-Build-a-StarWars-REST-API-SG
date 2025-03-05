@@ -31,4 +31,4 @@ La API cuenta con los siguientes endpoints:
 
 ## Contacto
 
-Si tienes preguntas o comentarios, no dudes en contactarme en: [ssegarragarcial@gmail.com]
+Si tienes preguntas o comentarios, no dudes en contactarme en: [ssegarragarcia@gmail.com]
