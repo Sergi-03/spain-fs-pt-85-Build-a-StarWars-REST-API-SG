@@ -29,6 +29,27 @@ La API cuenta con los siguientes endpoints:
 - `GET /api/species`: Obtiene la lista de especies.
 - `GET /api/vehicles`: Obtiene la lista de vehículos.
 
+## Uso
+
+### 1. Clona el repositorio
+```bash
+git clone https://github.com/Sergi-03/spain-fs-pt-85-Build-a-StarWars-REST-API-SG.git
+cd spain-fs-pt-85-Build-a-StarWars-REST-API-SG
+```
+
+### 2. Instala dependencias
+```bash
+pipenv install
+pipenv shell
+```
+
+### 3. Inicia el servidor
+```bash
+flask run
+```
+
+---
+
 ## Contacto
 
 Si tienes preguntas o comentarios, no dudes en contactarme en: [ssegarragarcia@gmail.com]
